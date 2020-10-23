@@ -11,7 +11,6 @@ body {
   grid-auto-rows: 50px;
   grid-gap: 5px;
   /*grid-template: repeat(4, 1fr) / repeat(3, 1fr)*/
-  /* your properties here */
 }
 
 .grid-item {
