@@ -18,7 +18,6 @@ body {
   border: 1px solid black;
 }
 
-/* add the .bigItem class */
 .bigItem {
   /*grid-column: 2 / 4; short-cut for grid-column-start and end*/
   /*grid-column-end: 4;*/
