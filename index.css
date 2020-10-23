@@ -7,7 +7,10 @@ body {
 .grid-container {
   height: 100vh;
   width: 100vw;
-  /* your properties here */
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-gap: 5px;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr)
 }
 
 .grid-item {
@@ -15,4 +18,14 @@ body {
   border: 1px solid black;
 }
 
-/* add the .bigItem class */
+.bigItem {
+  /*grid-column: 2 / 4; short-cut for grid-column-start and end*/
+  /*grid-column-end: 4;*/
+  /*grid-row: 2 / 4; short-cut for grid-row-start and end*/
+  /*grid-row-end: 4;*/
+  grid-area: 2/2/4/4; /* short-cut for grid-row and grid-column */
+  height: 50%;
+  width: 50%;
+  align-self: center;
+
+}
