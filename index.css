@@ -28,6 +28,6 @@ body {
   grid-area: 2/2/4/4; /* short-cut for grid-row and grid-column */
   height: 50%;
   width: 50%;
-  justify-self: center;
+  align-self: center;
 
 }
