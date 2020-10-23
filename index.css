@@ -23,7 +23,7 @@ body {
 .bigItem {
   /*grid-column: 2 / 4; short-cut for grid-column-start and end*/
   /*grid-column-end: 4;*/
-  /*grid-row: 2 / 4;*/
+  /*grid-row: 2 / 4; short-cut for grid-row-start and end*/
   /*grid-row-end: 4;*/
   grid-area: 2/2/4/4; /* short-cut for grid-row and grid-column */
 }
