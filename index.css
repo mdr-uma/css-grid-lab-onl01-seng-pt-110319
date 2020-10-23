@@ -25,5 +25,5 @@ body {
   /*grid-column-end: 4;*/
   /*grid-row: 2 / 4;*/
   /*grid-row-end: 4;*/
-  gird-area: 2/2/4/4;
+  grid-area: 2/2/4/4;
 }
